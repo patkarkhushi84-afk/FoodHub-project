@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoodHub</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">
+        <h2>🍔 FoodHub</h2>
+    </div>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#offers">Offers</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="cart">
+        <i class="fas fa-shopping-cart"></i>
+        <span id="cart-count">0</span>
+    </div>
+</header>
+
+
+<section class="hero">
+    <div class="hero-content">
+        <h1>Fresh & Tasty Food Delivered To Your Door</h1>
+        <p>Order your favourite burgers, pizzas, fries and drinks.</p>
+
+        <button id="order-btn">
+            Order Now
+        </button>
+    </div>
+</section>
+
+
+<section class="search-section">
+
+<input type="text"
+placeholder="Search Food..."
+id="search">
+
+</section>
+
+<section class="categories">
+
+<button>🍕 Pizza</button>
+<button>🍔 Burger</button>
+<button>🍟 Fries</button>
+<button>🥤 Drinks</button>
+
+</section>
+
+<section class="menu" id="menu">
+
+<h2>Popular Menu</h2>
+
+<div class="food-container">
+
+<div class="food-card">
+
+<img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd">
+
+<h3>Cheese Burger</h3>
+
+<p>₹199</p>
+
+<button onclick="addCart()">
+Add to Cart
+</button>
+
+</div>
+
+<div class="food-card">
+
+<img src="https://images.unsplash.com/photo-1513104890138-7c749659a591">
+
+<h3>Veg Pizza</h3>
+
+<p>₹299</p>
+
+<button onclick="addCart()">
+Add to Cart
+</button>
+
+</div>
+
+<div class="food-card">
+
+<img src="https://images.unsplash.com/photo-1630384060421-cb20d0e0649d">
+
+<h3>French Fries</h3>
+
+<p>₹99</p>
+
+<button onclick="addCart()">
+Add to Cart
+</button>
+
+</div>
+
+<div class="food-card">
+
+<img src="https://images.unsplash.com/photo-1551024709-8f23befc6cf7">
+
+<h3>Cold Drink</h3>
+
+<p>₹79</p>
+
+<button onclick="addCart()">
+Add to Cart
+</button>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="offers" id="offers">
+
+<h2>Today's Offers</h2>
+
+<div class="offer-box">
+
+<div class="offer">
+<h3>50% OFF</h3>
+<p>On Large Pizza</p>
+</div>
+
+<div class="offer">
+<h3>Buy 1 Get 1</h3>
+<p>On Burgers</p>
+</div>
+
+<div class="offer">
+<h3>Free Drink</h3>
+<p>On Orders Above ₹499</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="reviews" id="reviews">
+
+<h2>Customer Reviews</h2>
+
+<div class="review-container">
+
+<div class="review">
+⭐⭐⭐⭐⭐
+<p>"Amazing taste and super fast delivery!"</p>
+<h4>- Rahul</h4>
+</div>
+
+<div class="review">
+⭐⭐⭐⭐☆
+<p>"Affordable prices and delicious food."</p>
+<h4>- Priya</h4>
+</div>
+
+<div class="review">
+⭐⭐⭐⭐⭐
+<p>"Best burger I've ever had."</p>
+<h4>- Aman</h4>
+</div>
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<h2>Contact Us</h2>
+
+<form>
+
+<input type="text"
+placeholder="Your Name">
+
+<input type="email"
+placeholder="Email">
+
+<textarea
+placeholder="Your Message">
+</textarea>
+
+<button>
+Send Message
+</button>
+
+</form>
+
+</section>
+
+<footer>
+
+<h2>🍔 FoodHub</h2>
+
+<p>Fresh Food | Fast Delivery | Best Taste</p>
+
+<div class="social">
+
+<i class="fab fa-facebook"></i>
+
+<i class="fab fa-instagram"></i>
+
+<i class="fab fa-twitter"></i>
+
+<i class="fab fa-youtube"></i>
+
+</div>
+
+<p>© 2026 FoodHub. All Rights Reserved.</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
